@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 2rem;
+    background-image: url(../images/background.jpg);
+    width: 100%;
+
+}
+
+.navigation-bar{
+    height: 4rem;
+    background-color: rgb(215, 249, 250);
+    display: flex;
+    margin-left: 0fr;
+}
+
+.navigation-bar p{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.navigation-bar p a{
+    text-decoration: none;
+}
+
+.navigation-bar p a:hover{
+    color: red;
+    padding: 0.5rem;
+    background-color: orange;
+    border-radius: 0.4rem;
+}
+
+.navigation-bar ul{
+    display: flex;
+    margin-left: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navigation-bar ul li{
+    font-size: 1.6rem;
+    list-style: none;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    padding: 0.5rem;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.navigation-bar ul li a:hover{
+    color: red;
+    padding: 0.5rem;   
+    background-color: orange;
+    border-radius: 0.4rem;
+}
+
+.security-investment{
+    background-color: #c788fa;
+    padding-bottom: 5rem;
+    margin: 3rem 3rem 1rem 3rem;
+    border-radius: 0.8rem;
+}
+h1{
+    text-align: center;
+    margin: 3rem;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.5rem;
+    color: purple;
+}
+
+.investment-images{
+    display: flex;
+    height: 20rem;
+    object-fit: cover;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.blog-1{
+    width: 45%;
+    position: absolute;
+    left: 0;
+    margin: 2rem 0 2rem 3rem;
+    padding: 1.5rem;
+    text-align: justify;
+    background-color: lightblue;
+    border-radius: 0.8rem;
+}
+
+.blog-2{
+    width: 45%;
+    position: absolute;
+    right: 5rem;
+    margin: 2rem 0 2rem 3rem;
+    padding: 1.5rem;
+    text-align: justify;
+    background-color: lightgoldenrodyellow;
+    border-radius: 0.8rem;
+}
+
+
+.blog-1 a{
+    display: block;
+    color: red;
+}
+
+.blog-2 a{
+    color: red;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/*
+.social-media::after{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .youtube {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f431";
+  }
+
+  .facebook{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f1ea";
+  }
+
+  .linkedin {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f1ea";
+  }
+
+  .twitter {
+    font-family: "Font Awesome 5 Brands"; 
+    content: "\f099";
+  }
+
+  .instagram {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 400; 
+    content: "\f1ea";
+  }
+
+  */
+
+  .social-media .fab{
+    font-size: 5rem;
+    margin-left: 10rem;
+    padding: 2rem;
+    margin-top: 52rem;
+  }
+
+.fab:hover{
+    background-color: rgba(236, 196, 122, 0.966);
+}
+
+.social-media p{
+    text-align: center;
+  }
+
